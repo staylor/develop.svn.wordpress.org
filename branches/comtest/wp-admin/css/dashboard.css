@@ -1,0 +1,181 @@
+.edit-box {
+	display: none;
+}
+
+h3:hover .edit-box {
+	display: inline;
+}
+
+form .input-text-wrap {
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px 3px;
+	border-color: #ccc;
+}
+
+form .input-text-wrap input {
+	border: 0 none;
+	outline: none;
+	padding: 0;
+	width: 99%;
+	color: #333;
+}
+
+form .textarea-wrap {
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px;
+	border-color: #ccc;
+}
+
+form .textarea-wrap textarea {
+	border: 0 none;
+	padding: 0;
+	outline: none;
+	width: 99%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+form p.field-tip {
+	font-size: .9em;
+	font-style: italic;
+	margin: 0;
+	padding: 0;
+}
+
+#dashboard-widgets .postbox form .submit {
+	float: none;
+	margin: .5em 0 0;
+	padding: 0;
+	border: none;
+}
+
+#dashboard-widgets-wrap #dashboard-widgets .postbox form .submit input {
+	margin: 0;
+}
+
+#dashboard-widgets-wrap #dashboard-widgets .postbox form .submit #publish {
+	min-width: 0;
+}
+
+#dashboard-widgets-wrap .has-sidebar {
+	margin-right: -51%;
+}
+
+#dashboard-widgets-wrap .inner-sidebar {
+	width: 49%;
+}
+
+#dashboard-widgets-wrap .has-sidebar .has-sidebar-content {
+	margin-right: 51%;
+}
+
+div.postbox div.inside {
+	margin: 0 10px 10px;
+	position: relative;
+}
+
+.view-all {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#dashboard-widgets h4 {
+	font-size: 1em;
+	margin: 0 0 .2em;
+	padding: 0;
+}
+
+/* Recent Comments */
+
+#the-comment-list {
+	position: relative;
+}
+
+#the-comment-list .comment-item {
+	padding: 5px 5px 5px 47px;
+}
+
+#the-comment-list .comment-item .avatar {
+	position: absolute;
+	left: 5px;
+}
+
+#the-comment-list .comment-item blockquote, #the-comment-list .comment-item blockquote p {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+#dashboard_recent_comments #the-comment-list .trackback blockquote, #dashboard_recent_comments #the-comment-list .pingback blockquote {
+	display: block;
+}
+
+#the-comment-list .comment-item p.comment-actions {
+	margin: 0;
+	padding: 0;
+}
+
+/* QuickPress */
+
+#quick-press #add-media-button {
+	margin: .5em 0;
+}
+
+#quick-press #content-label {
+	margin-top: 1em;
+}
+
+#quick-press .textarea-wrap {
+	clear: both;
+}
+
+/* Recent Drafts */
+#dashboard_recent_drafts ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Feeds */
+
+.rss-widget ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.rss-widget a.rsswidget,
+.rss-widget span.rss-date {
+	font-size: 14px;
+}
+
+.rss-widget cite {
+	display: block;
+	text-align: right;
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+.rss-widget cite:before {
+	content: '\2014';
+}
+
+/* Plugins */
+
+#dashboard_plugins h5 {
+	font-size: 14px;
+	margin: 0;
+	display: inline;
+	line-height: 1.4em;
+}
+
+#dashboard_plugins p {
+	margin: 0 0 1em;
+	line-height: 1.5em;
+}
